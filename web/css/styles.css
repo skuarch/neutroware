@@ -1,0 +1,344 @@
+
+/* 
+----------------------------------------------------------------------------------------
+
+Copyright 2009 - Thierry Ruiz - www.dotemplate.com - All rights reserved.
+
+THIS TEMPLATE IS FREE AS LONG AS YOU KEEP THE LINK TO WWW.DOTEMPLATE.COM IN THE FOOTER
+TO REMOVE THE LINK, PLEASE MAKE A 10 DOLLARS DONATION at www.dotemplate.com/#donate
+
+----------------------------------------------------------------------------------------
+*/
+
+
+
+
+
+
+
+html {
+	background: #e6f7eb;
+	margin:0 0 0 -1px;
+	padding:0;	
+	overflow-Y: scroll;
+}
+
+
+body {
+	padding:0;
+	margin :0;
+	display:table; 
+	width:100%;	
+}
+
+
+  
+  
+body {
+	color:#606060;
+	font-family: 'Trebuchet MS', sans-serif ;
+	font-size: 13px;
+	font-style: normal ;
+	font-weight: normal ;
+	text-transform: normal;
+}
+
+
+p {
+	letter-spacing: normal ;
+	line-height: 1.7em ;
+}
+
+h1 {
+	color:#770300;
+	font-size:22px ;
+	margin:25px 0 10px 0;
+	clear:both;
+}
+
+
+h2 {
+	color:#770300;
+	font-size:20px ;
+	margin:20px 0 10px 0;
+	clear:both;
+}
+
+
+h3 {
+	color:#770300;
+	font-size:18px;
+	margin:20px 0 5px 0;
+	clear:both;
+}
+
+
+
+a:link, a:visited {
+	color:#770300 ;
+	text-decoration:none;
+}
+
+
+a:hover {
+	color:#d10003;
+	text-decoration:underline;
+}
+
+
+
+
+  
+  
+
+#wrapper {
+	background: transparent url( page-vbg.jpg ) repeat-y scroll 50% 0px ;
+	margin:0 auto ;
+	width:100%;
+}
+
+  
+  
+body {
+	background-color:#e6f7eb;
+}
+
+
+
+
+
+#bg {
+	margin:0 auto;
+	padding:0;
+	background:transparent ;
+	background-image: url( hat.jpg ) ;
+ 	background-repeat:no-repeat;	
+	background-position: center top ;
+}
+
+
+
+  
+  
+#header {
+	margin: 0 auto;
+	height: 60px;
+	width: 880px;
+	position:relative;
+}
+
+
+#page {
+	background: transparent url( page-bg.jpg ) no-repeat center top;
+}
+
+
+
+  
+  
+
+
+
+#container {
+	margin:0 auto;
+	width:880px; 
+}
+
+
+#banner {
+	margin: 0 auto;
+	height:200px;
+	width:100%;
+}
+
+
+  
+  
+
+
+
+#nav1 {
+	height:50px;
+	margin:0 auto ;
+	width:870px;	
+	text-align:center;
+}
+
+
+#nav1 ul {
+	display:table;
+	margin:0 auto;
+	padding:0;
+	list-style-type:none;
+	position:relative;
+	height:50px;
+	text-transform:uppercase;
+	font-size:12px;
+	font-family:Arial,sans-serif;
+}
+
+
+#nav1 ul li {
+	display:block;
+	float:left;
+	margin:0;
+	padding:0;
+	background:transparent url("hmenu.jpg") repeat-x top left;
+
+}
+
+
+#nav1 ul li a {
+	display:block;
+	float:left;
+	color:#ea1e21;
+	text-decoration:none;
+	padding:0px 50px ;
+	line-height:50px;
+	font-weight:bold;
+}
+
+
+#nav1 ul li a:hover, #nav1 li#current a {
+	color:#ffffff;
+	background:transparent url("hmenu-sel.jpg") repeat-x top left;
+}
+
+
+
+
+#content {
+	width:870px;
+	margin:0 auto ;
+	text-align:left;
+	min-height:800px;
+}
+
+#content p {
+	text-align:justify;
+}
+
+
+
+
+
+
+#footerWrapper {
+	margin:0 auto;
+	height:110px;
+	padding:0;
+	background:transparent url( footerWrapper-bg.jpg ) no-repeat scroll center top ;
+}
+
+
+#footer {
+	margin:0 auto;
+	padding:0;
+	width:880px;
+	height:70px;
+}
+
+
+  
+  
+#footer {
+	color:#FFFFFF;
+	text-align:center;
+}
+
+#footer a:link, #footer a:visited {
+	color:#FFFFFF;
+}
+
+
+#footer a:hover{
+	color:#770300;
+	text-decoration:none;
+}
+
+
+
+  
+  
+
+
+
+
+#right {
+	width:234px;
+	padding:0px;
+	float:left;
+}
+
+#center {
+	width:576px;	
+	padding:0px;
+	float:left;
+	margin:0 15px 0 20px; 
+}
+
+ 
+#content p {
+	margin-top:10px;
+	text-align:justify;
+}
+
+
+  
+  
+
+#g-sidebar {
+	padding: 0px;
+	margin: 10px ;	
+}
+
+
+#g-sidebar * {
+	margin: 15px;
+}
+
+  
+  
+
+#g-sidebar ul.vmenu {
+	list-style: none;
+	text-align: left;
+	margin: 7px 0px 8px 0px; 
+	padding: 0;
+	text-decoration: none;	
+	border-top: 1px solid #eeeeee;	
+}
+
+
+#g-sidebar ul.vmenu li {
+	list-style: none;
+	padding: 4px 0 4px 0px;
+	margin: 0 2px;	
+	border-bottom: 1px solid #eeeeee;
+}
+
+
+
+#g-sidebar ul.vmenu li a {
+	text-decoration: none;
+	color:#770300;
+}
+
+
+#g-sidebar ul.vmenu li a:hover {
+	color:#d10003;
+}
+
+
+#g-sidebar ul.vmenu ul { margin: 0 0 0 5px; padding: 0; }
+#g-sidebar ul.vmenu ul li { border: none; }
+
+
+.divTitulo{
+	background-color:#D8D8D8;
+}
+
+
+
+
+
